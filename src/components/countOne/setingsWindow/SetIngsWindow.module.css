@@ -1,0 +1,46 @@
+.settingsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px #63dbfd solid;
+    width: 550px;
+    padding: 20px;
+
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 10px;
+    border: 5px #63dbfd solid;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 250px;
+    border: 5px #63dbfd solid;
+    border-radius: 10px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #63dbfd;
+    border-radius: 10px;
+    font-size: 60px;
+    line-height: 1.2;
+    color: #292c35;
+    padding: 0 20px;
+}
+
+.disable {
+    opacity: 0.7;
+}

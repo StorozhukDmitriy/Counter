@@ -1,0 +1,31 @@
+
+.inputLabel{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+
+label {
+    font-size: 50px;
+    font-weight: bold;
+    color: #63dbfd;
+}
+.input {
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 3px #63dbfd solid;
+    width: 200px;
+    height: 40px;
+    background-color: #63dbfd;
+    color: #292c35;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.error{
+    background-color: red;
+    opacity: 0.6;
+}
+
